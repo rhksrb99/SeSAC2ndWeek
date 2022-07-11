@@ -13,6 +13,7 @@
 		9257CE85287BA3EB00A4F123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9257CE83287BA3EB00A4F123 /* Main.storyboard */; };
 		9257CE87287BA3EC00A4F123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9257CE86287BA3EC00A4F123 /* Assets.xcassets */; };
 		9257CE8A287BA3EC00A4F123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9257CE88287BA3EC00A4F123 /* LaunchScreen.storyboard */; };
+		92C4D610287C74C60017FB5F /* EmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9257CE86287BA3EC00A4F123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9257CE89287BA3EC00A4F123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9257CE8B287BA3EC00A4F123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9257CE86287BA3EC00A4F123 /* Assets.xcassets */,
 				9257CE88287BA3EC00A4F123 /* LaunchScreen.storyboard */,
 				9257CE83287BA3EB00A4F123 /* Main.storyboard */,
+				92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */,
 			);
 			path = SeSAC2ndWeek;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C4D610287C74C60017FB5F /* EmotionDiaryViewController.swift in Sources */,
 				9257CE82287BA3EB00A4F123 /* ViewController.swift in Sources */,
 				9257CE7E287BA3EB00A4F123 /* AppDelegate.swift in Sources */,
 				9257CE80287BA3EB00A4F123 /* SceneDelegate.swift in Sources */,

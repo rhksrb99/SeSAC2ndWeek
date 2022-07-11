@@ -413,18 +413,27 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime2"/>
+                                                <connections>
+                                                    <action selector="btn_2:" destination="1KA-bJ-bep" eventType="touchUpInside" id="cRb-O7-siB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUg-iv-2SR">
                                                 <rect key="frame" x="236" y="0.0" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime3"/>
+                                                <connections>
+                                                    <action selector="btn_3:" destination="1KA-bJ-bep" eventType="touchUpInside" id="xXT-XO-3WA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K24-gI-N5t">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime1"/>
+                                                <connections>
+                                                    <action selector="btn_1:" destination="1KA-bJ-bep" eventType="touchUpInside" id="vzo-Pf-Hw9"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="사랑해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SN6-lb-4Sq">
                                                 <rect key="frame" x="152" y="118" width="45" height="21"/>
@@ -440,7 +449,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D87-ie-H2w">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D87-ie-H2w">
                                                 <rect key="frame" x="84" y="118" width="26" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -478,18 +487,27 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime5"/>
+                                                <connections>
+                                                    <action selector="btn_5:" destination="1KA-bJ-bep" eventType="touchUpInside" id="UxC-5q-Q5p"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tif-KK-dde">
                                                 <rect key="frame" x="236" y="0.0" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime6"/>
+                                                <connections>
+                                                    <action selector="btn_6:" destination="1KA-bJ-bep" eventType="touchUpInside" id="NV2-qM-AiD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJt-nR-yUe">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime4"/>
+                                                <connections>
+                                                    <action selector="btn_4:" destination="1KA-bJ-bep" eventType="touchUpInside" id="MhU-fr-4Y8"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="심심해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpK-e5-uxO">
                                                 <rect key="frame" x="152" y="118" width="45" height="21"/>
@@ -539,22 +557,31 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uND-0K-BNM">
-                                                <rect key="frame" x="118" y="0.0" width="110" height="110"/>
+                                                <rect key="frame" x="118" y="3" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime8"/>
+                                                <connections>
+                                                    <action selector="btn_8:" destination="1KA-bJ-bep" eventType="touchUpInside" id="E5P-H1-fC2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F5-E7-nds">
                                                 <rect key="frame" x="236" y="0.0" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime9"/>
+                                                <connections>
+                                                    <action selector="btn_9:" destination="1KA-bJ-bep" eventType="touchUpInside" id="qMK-rU-VMu"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtc-nK-LQC">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="sesac_slime7"/>
+                                                <connections>
+                                                    <action selector="btn_7:" destination="1KA-bJ-bep" eventType="touchUpInside" id="rZC-iD-YDW"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="우울해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8s-kV-Srk">
                                                 <rect key="frame" x="152" y="118" width="45" height="21"/>
@@ -616,15 +643,15 @@
                         <outlet property="btn_7" destination="Mtc-nK-LQC" id="UCg-oR-jVC"/>
                         <outlet property="btn_8" destination="uND-0K-BNM" id="oT1-rD-qzM"/>
                         <outlet property="btn_9" destination="2F5-E7-nds" id="8Bu-eK-yFo"/>
-                        <outlet property="lb_1" destination="D87-ie-H2w" id="pgD-wz-XxF"/>
-                        <outlet property="lb_2" destination="eta-7z-9HA" id="Cbs-yQ-tQR"/>
-                        <outlet property="lb_3" destination="wOZ-Ti-jHG" id="ycc-go-qgT"/>
-                        <outlet property="lb_4" destination="Cha-YM-KeD" id="n35-hA-37U"/>
-                        <outlet property="lb_5" destination="T6X-w3-JOs" id="Ye0-wd-Bmb"/>
-                        <outlet property="lb_6" destination="ZOB-P2-YKj" id="3M8-DQ-s7Y"/>
-                        <outlet property="lb_7" destination="22o-B7-pLX" id="Vbv-6g-esv"/>
-                        <outlet property="lb_8" destination="fNS-nv-Q1K" id="aej-Pc-ymh"/>
-                        <outlet property="lb_9" destination="Bmc-BO-kHF" id="2MB-93-f50"/>
+                        <outletCollection property="label1" destination="D87-ie-H2w" collectionClass="NSMutableArray" id="xKY-KO-0LM"/>
+                        <outletCollection property="label1" destination="eta-7z-9HA" collectionClass="NSMutableArray" id="UFD-1x-9hm"/>
+                        <outletCollection property="label1" destination="wOZ-Ti-jHG" collectionClass="NSMutableArray" id="uH1-gG-Ec9"/>
+                        <outletCollection property="label1" destination="Cha-YM-KeD" collectionClass="NSMutableArray" id="qMG-rE-gTz"/>
+                        <outletCollection property="label1" destination="T6X-w3-JOs" collectionClass="NSMutableArray" id="asf-gu-oVj"/>
+                        <outletCollection property="label1" destination="ZOB-P2-YKj" collectionClass="NSMutableArray" id="IVk-co-yMi"/>
+                        <outletCollection property="label1" destination="22o-B7-pLX" collectionClass="NSMutableArray" id="HAv-ss-7Cj"/>
+                        <outletCollection property="label1" destination="fNS-nv-Q1K" collectionClass="NSMutableArray" id="PX9-hi-zQo"/>
+                        <outletCollection property="label1" destination="Bmc-BO-kHF" collectionClass="NSMutableArray" id="7x6-ab-eOf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXb-S4-ZDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

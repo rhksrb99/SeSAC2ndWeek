@@ -56,13 +56,13 @@
 		9257CE7C287BA3EB00A4F123 /* SeSAC2ndWeek */ = {
 			isa = PBXGroup;
 			children = (
+				9257CE8B287BA3EC00A4F123 /* Info.plist */,
 				9257CE7D287BA3EB00A4F123 /* AppDelegate.swift */,
 				9257CE7F287BA3EB00A4F123 /* SceneDelegate.swift */,
 				9257CE81287BA3EB00A4F123 /* ViewController.swift */,
-				9257CE83287BA3EB00A4F123 /* Main.storyboard */,
 				9257CE86287BA3EC00A4F123 /* Assets.xcassets */,
 				9257CE88287BA3EC00A4F123 /* LaunchScreen.storyboard */,
-				9257CE8B287BA3EC00A4F123 /* Info.plist */,
+				9257CE83287BA3EB00A4F123 /* Main.storyboard */,
 			);
 			path = SeSAC2ndWeek;
 			sourceTree = "<group>";

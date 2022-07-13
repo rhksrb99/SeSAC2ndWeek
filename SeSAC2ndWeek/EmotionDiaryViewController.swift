@@ -52,7 +52,7 @@ class EmotionDiaryViewController: UIViewController {
 //
 //
 //    func setUserNickname() -> String{
-//        let nickname = ["박","관", "규"]
+//        let nickname = ["박", "관", "규"]
 //        let select = nickname.randomElement()
 //
 //        return "저는 \(select)입니다."

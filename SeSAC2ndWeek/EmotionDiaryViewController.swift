@@ -23,16 +23,14 @@ class EmotionDiaryViewController: UIViewController {
     
     var num = ["num1":0, "num2":0, "num3":0, "num4":0, "num5":0, "num6":0, "num7":0, "num8":0, "num9":0]
     
-    var btnArr: [String] = []
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
 //        label1[1].text = setUserNickname()
         
-        for items in 1...9{
-            btnArr.append("btn_\(items)")
-        }
+//        for items in 1...9{
+//            btnArr.append("btn_\(items)")
+//        }
         
 //        // #imageLiteral(
 //        let imageLiteral = #imageLiteral(resourceName: "sesac_slime4")

@@ -16,6 +16,11 @@
 		92C4D610287C74C60017FB5F /* EmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */; };
 		92C4D612287D21E80017FB5F /* SegementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4D611287D21E80017FB5F /* SegementViewController.swift */; };
 		92C4D634287E93F70017FB5F /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4D633287E93F70017FB5F /* DatePickerViewController.swift */; };
+		92C4D636287FA6820017FB5F /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C4D635287FA6810017FB5F /* Setting.storyboard */; };
+		92C4D638287FA80D0017FB5F /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C4D637287FA80D0017FB5F /* Search.storyboard */; };
+		92C4D63C287FAEE20017FB5F /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 92C4D63B287FAEE20017FB5F /* SideMenu */; };
+		92C4D63F287FAFB00017FB5F /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 92C4D63E287FAFB00017FB5F /* FSCalendar */; };
+		92C4D642287FAFC10017FB5F /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 92C4D641287FAFC10017FB5F /* TextFieldEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,8 @@
 		92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewController.swift; sourceTree = "<group>"; };
 		92C4D611287D21E80017FB5F /* SegementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegementViewController.swift; sourceTree = "<group>"; };
 		92C4D633287E93F70017FB5F /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		92C4D635287FA6810017FB5F /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Setting.storyboard; path = Storyboard/Setting.storyboard; sourceTree = SOURCE_ROOT; };
+		92C4D637287FA80D0017FB5F /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C4D642287FAFC10017FB5F /* TextFieldEffects in Frameworks */,
+				92C4D63C287FAEE20017FB5F /* SideMenu in Frameworks */,
+				92C4D63F287FAFB00017FB5F /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,7 @@
 		9257CE71287BA3EB00A4F123 = {
 			isa = PBXGroup;
 			children = (
+				92C4D639287FA8160017FB5F /* Storyboard */,
 				9257CE7C287BA3EB00A4F123 /* SeSAC2ndWeek */,
 				9257CE7B287BA3EB00A4F123 /* Products */,
 			);
@@ -68,12 +79,21 @@
 				9257CE81287BA3EB00A4F123 /* ViewController.swift */,
 				92C4D633287E93F70017FB5F /* DatePickerViewController.swift */,
 				9257CE86287BA3EC00A4F123 /* Assets.xcassets */,
-				9257CE88287BA3EC00A4F123 /* LaunchScreen.storyboard */,
-				9257CE83287BA3EB00A4F123 /* Main.storyboard */,
 				92C4D611287D21E80017FB5F /* SegementViewController.swift */,
 				92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */,
 			);
 			path = SeSAC2ndWeek;
+			sourceTree = "<group>";
+		};
+		92C4D639287FA8160017FB5F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				92C4D637287FA80D0017FB5F /* Search.storyboard */,
+				92C4D635287FA6810017FB5F /* Setting.storyboard */,
+				9257CE88287BA3EC00A4F123 /* LaunchScreen.storyboard */,
+				9257CE83287BA3EB00A4F123 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +112,11 @@
 			dependencies = (
 			);
 			name = SeSAC2ndWeek;
+			packageProductDependencies = (
+				92C4D63B287FAEE20017FB5F /* SideMenu */,
+				92C4D63E287FAFB00017FB5F /* FSCalendar */,
+				92C4D641287FAFC10017FB5F /* TextFieldEffects */,
+			);
 			productName = SeSAC2ndWeek;
 			productReference = 9257CE7A287BA3EB00A4F123 /* SeSAC2ndWeek.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +145,11 @@
 				Base,
 			);
 			mainGroup = 9257CE71287BA3EB00A4F123;
+			packageReferences = (
+				92C4D63A287FAEE20017FB5F /* XCRemoteSwiftPackageReference "SideMenu" */,
+				92C4D63D287FAFB00017FB5F /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				92C4D640287FAFC10017FB5F /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+			);
 			productRefGroup = 9257CE7B287BA3EB00A4F123 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +167,8 @@
 				9257CE8A287BA3EC00A4F123 /* LaunchScreen.storyboard in Resources */,
 				9257CE87287BA3EC00A4F123 /* Assets.xcassets in Resources */,
 				9257CE85287BA3EB00A4F123 /* Main.storyboard in Resources */,
+				92C4D636287FA6820017FB5F /* Setting.storyboard in Resources */,
+				92C4D638287FA80D0017FB5F /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +402,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92C4D63A287FAEE20017FB5F /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		92C4D63D287FAFB00017FB5F /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		92C4D640287FAFC10017FB5F /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92C4D63B287FAEE20017FB5F /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92C4D63A287FAEE20017FB5F /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		92C4D63E287FAFB00017FB5F /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92C4D63D287FAFB00017FB5F /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		92C4D641287FAFC10017FB5F /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92C4D640287FAFC10017FB5F /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9257CE72287BA3EB00A4F123 /* Project object */;
 }

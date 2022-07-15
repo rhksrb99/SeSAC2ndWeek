@@ -14,6 +14,15 @@ class DatePickerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // 14이상의 버전이면 datePicker의 스타일을 inline으로
+        // 14이하의 버전이면 datePicker의 스타일을 wheels로.
+        if #available(iOS 14.0, *) {
+            datePicker.preferredDatePickerStyle = .inline
+        }else{
+            datePicker.preferredDatePickerStyle = .wheels
+        }
+        
         // 기본적인 날짜 포맷팅
         let format = DateFormatter()
         format.dateFormat = "yyyy년\nMM월 dd일"
@@ -28,26 +37,26 @@ class DatePickerViewController: UIViewController {
         let dateFourth = Calendar.current.date(byAdding: .day, value: 400, to: Date())
         print(dateFirst!)
         
-        // 위에서 받아온 오늘로부터의 100일 뒤의 계산을 다시 한번 포맷팅
-        // 년, 월, 일만 추출
-        let dateFirstResult = DateFormatter()
-        dateFirstResult.dateFormat = "yyyy년\nMM월 dd일"
+//        위에서 받아온 오늘로부터의 100일 뒤의 계산을 다시 한번 포맷팅
+//        년, 월, 일만 추출
+//        let dateFirstResult = DateFormatter()
+//        dateFirstResult.dateFormat = "yyyy년\nMM월 dd일"
         let dateresult1 = format.string(from: dateFirst!)
         let dateresult2 = format.string(from: dateSecond!)
         let dateresult3 = format.string(from: dateThird!)
         let dateresult4 = format.string(from: dateFourth!)
         
-        
         // switch문을 사용하여 계산된 기념일 label에 순서대로 넣기
         for i in 0...3{
             switch lb_anniversary[i] {
             case lb_anniversary[0] : lb_anniversary[0].text = "\(dateresult1)"
-//            case lb_anniversary[1] : lb_anniversary[1].text = "\()"
+            case lb_anniversary[1] : lb_anniversary[1].text = "\(dateresult2)"
+            case lb_anniversary[2] : lb_anniversary[2].text = "\(dateresult3)"
+            case lb_anniversary[3] : lb_anniversary[3].text = "\(dateresult4)"
             default:
                 return
             }
         }
-
     }
     
     // MARK: - Functions
@@ -64,5 +73,4 @@ class DatePickerViewController: UIViewController {
     func dateformat(formatTarget:DateFormatter){
         formatTarget.dateFormat = "yyyy년\nMM월 dd일"
     }
-    
 }

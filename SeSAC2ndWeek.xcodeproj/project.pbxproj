@@ -21,6 +21,10 @@
 		92C4D63C287FAEE20017FB5F /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 92C4D63B287FAEE20017FB5F /* SideMenu */; };
 		92C4D63F287FAFB00017FB5F /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 92C4D63E287FAFB00017FB5F /* FSCalendar */; };
 		92C4D642287FAFC10017FB5F /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 92C4D641287FAFC10017FB5F /* TextFieldEffects */; };
+		92C4D68D2880E8540017FB5F /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C4D68C2880E8540017FB5F /* Transition.storyboard */; };
+		92C4D68F2880EFBC0017FB5F /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4D68E2880EFBC0017FB5F /* TransitionFirstViewController.swift */; };
+		92D73BD52880FDFB000EE389 /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D73BD42880FDFB000EE389 /* TransitionSecondViewController.swift */; };
+		92D73BD72881A9C3000EE389 /* AlertTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D73BD62881A9C3000EE389 /* AlertTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		92C4D633287E93F70017FB5F /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		92C4D635287FA6810017FB5F /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Setting.storyboard; path = Storyboard/Setting.storyboard; sourceTree = SOURCE_ROOT; };
 		92C4D637287FA80D0017FB5F /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		92C4D68C2880E8540017FB5F /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
+		92C4D68E2880EFBC0017FB5F /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
+		92D73BD42880FDFB000EE389 /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
+		92D73BD62881A9C3000EE389 /* AlertTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		9257CE71287BA3EB00A4F123 = {
 			isa = PBXGroup;
 			children = (
+				92D73BD82881A9D3000EE389 /* Controller */,
+				92C4D68B2880E8410017FB5F /* Transition */,
 				92C4D639287FA8160017FB5F /* Storyboard */,
 				9257CE7C287BA3EB00A4F123 /* SeSAC2ndWeek */,
 				9257CE7B287BA3EB00A4F123 /* Products */,
@@ -76,11 +86,7 @@
 				9257CE8B287BA3EC00A4F123 /* Info.plist */,
 				9257CE7D287BA3EB00A4F123 /* AppDelegate.swift */,
 				9257CE7F287BA3EB00A4F123 /* SceneDelegate.swift */,
-				9257CE81287BA3EB00A4F123 /* ViewController.swift */,
-				92C4D633287E93F70017FB5F /* DatePickerViewController.swift */,
 				9257CE86287BA3EC00A4F123 /* Assets.xcassets */,
-				92C4D611287D21E80017FB5F /* SegementViewController.swift */,
-				92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */,
 			);
 			path = SeSAC2ndWeek;
 			sourceTree = "<group>";
@@ -94,6 +100,28 @@
 				9257CE83287BA3EB00A4F123 /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		92C4D68B2880E8410017FB5F /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				92C4D68C2880E8540017FB5F /* Transition.storyboard */,
+				92D73BD42880FDFB000EE389 /* TransitionSecondViewController.swift */,
+				92C4D68E2880EFBC0017FB5F /* TransitionFirstViewController.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		92D73BD82881A9D3000EE389 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9257CE81287BA3EB00A4F123 /* ViewController.swift */,
+				92C4D633287E93F70017FB5F /* DatePickerViewController.swift */,
+				92C4D611287D21E80017FB5F /* SegementViewController.swift */,
+				92C4D60F287C74C60017FB5F /* EmotionDiaryViewController.swift */,
+				92D73BD62881A9C3000EE389 /* AlertTestViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9257CE8A287BA3EC00A4F123 /* LaunchScreen.storyboard in Resources */,
+				92C4D68D2880E8540017FB5F /* Transition.storyboard in Resources */,
 				9257CE87287BA3EC00A4F123 /* Assets.xcassets in Resources */,
 				9257CE85287BA3EB00A4F123 /* Main.storyboard in Resources */,
 				92C4D636287FA6820017FB5F /* Setting.storyboard in Resources */,
@@ -183,6 +212,9 @@
 				92C4D612287D21E80017FB5F /* SegementViewController.swift in Sources */,
 				92C4D634287E93F70017FB5F /* DatePickerViewController.swift in Sources */,
 				9257CE82287BA3EB00A4F123 /* ViewController.swift in Sources */,
+				92D73BD72881A9C3000EE389 /* AlertTestViewController.swift in Sources */,
+				92C4D68F2880EFBC0017FB5F /* TransitionFirstViewController.swift in Sources */,
+				92D73BD52880FDFB000EE389 /* TransitionSecondViewController.swift in Sources */,
 				9257CE7E287BA3EB00A4F123 /* AppDelegate.swift in Sources */,
 				9257CE80287BA3EB00A4F123 /* SceneDelegate.swift in Sources */,
 			);

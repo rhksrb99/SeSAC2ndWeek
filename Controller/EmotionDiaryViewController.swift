@@ -15,8 +15,11 @@ class EmotionDiaryViewController: UIViewController {
     
     var num = ["num1":0, "num2":0, "num3":0, "num4":0, "num5":0, "num6":0, "num7":0, "num8":0, "num9":0]
     
+    let countArr = [0,0,0,0,0,0,0,0,0]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     
@@ -42,6 +45,22 @@ class EmotionDiaryViewController: UIViewController {
             label1[i].text = "0"
         }
     }
+    
+    // 버튼 클릭 시 증가하는 count를 UserDefaults를 이용하여 저장
+    func countDate(number: Int){
+        // 기존 데이터 값 가져오기
+        let countValue = UserDefaults.standard
+        
+        // 데이터 저장
+        countValue.set(countArr, forKey: "countValue")
+//
+//        for i in 1...9{
+//            if i == number{
+//
+//            }
+//        }
+    }
+    
     
     
     // MARK: - IBActions

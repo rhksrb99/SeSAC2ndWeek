@@ -30,17 +30,12 @@ class DatePickerViewController: UIViewController {
         print(result)
         
         // 오늘로부터 100일 뒤의 계산
-        
         let dateFirst = Calendar.current.date(byAdding: .day, value: 100, to: Date())
         let dateSecond = Calendar.current.date(byAdding: .day, value: 200, to: Date())
         let dateThird = Calendar.current.date(byAdding: .day, value: 300, to: Date())
         let dateFourth = Calendar.current.date(byAdding: .day, value: 400, to: Date())
-        print(dateFirst!)
         
-//        위에서 받아온 오늘로부터의 100일 뒤의 계산을 다시 한번 포맷팅
-//        년, 월, 일만 추출
-//        let dateFirstResult = DateFormatter()
-//        dateFirstResult.dateFormat = "yyyy년\nMM월 dd일"
+        // 위에서 받아온 오늘로부터의 100일 뒤의 계산을 다시 한번 포맷팅
         let dateresult1 = format.string(from: dateFirst!)
         let dateresult2 = format.string(from: dateSecond!)
         let dateresult3 = format.string(from: dateThird!)
